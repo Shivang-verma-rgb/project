@@ -1,0 +1,45 @@
+.container{
+    padding:20px;
+
+    
+}
+body{
+    background-color:rgb(212, 240, 240);
+    margin:0;
+    
+}
+img{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+   
+   
+}
+
+
+.sidebar {
+  width: 260px;
+  background-color: #eaf4f0; /* Soft minty-green background */
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px;
+  height:337px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: #41484d;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 6px 12px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
